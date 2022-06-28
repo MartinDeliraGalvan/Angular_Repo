@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="MyLunch">
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="eatforlunch.js"></script>
+    <title>EatForLunch</title>
+    <title></title>
+  </head>
+  <body>
+    <div class="" ng-controller="MyLunchController">
+      <h1>Eat For Lunch</h1>
+      <div class="">
+        Things to Eat:
+        <input type="text" value=""
+        ng-model="food">
+        <div class="">{{totalFood}}</div>
+      </div>
+      <div class="">
+      </div>
+      <div class="">
+        <br>
+        <button type="button" name="button" ng-click="checkIfTooMuch()">Check if Too Much</button>
+      </div>
+    </div>
+  </body>
+</html>
