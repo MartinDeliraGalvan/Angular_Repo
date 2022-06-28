@@ -8,13 +8,24 @@
 
     <h1>HTML Custom Attributes</h1>
 
-    <div class="" id="target">
+    <div class="" id="target" greeting = "aaaa" ng-app="myTestApp">
       <section>Section 1
         <article class=""> Article 1
 
         </article>
       </section>
     </div>
+    <script type="text/javascript">
+      // var elem = document.getElementById('target');
+      // console.log(elem);
+      //
+      // console.log(elem.getAttribute('ng-app'));
+
+      var elem2 = document.querySelector("[ng-app]");
+      console.log(elem2);
+      console.log(elem2.getAttribute('ng-app'));
+
+    </script>
 
   </body>
 </html>
